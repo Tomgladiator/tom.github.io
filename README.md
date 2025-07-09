@@ -1,33 +1,71 @@
-# tom.github.io
 <!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>Мои сайты</title>
+  <title>Мои ссылки</title>
   <style>
     body {
-      font-family: sans-serif;
-      background-color: #f9f9f9;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: "Segoe UI", sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 30px;
       text-align: center;
-      padding: 50px;
     }
-    a {
-      display: block;
-      margin: 10px 0;
-      font-size: 20px;
-      color: #2a5bd7;
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 18px;
+      margin-bottom: 30px;
+      color: #ccc;
+    }
+
+    .link-button {
+      background-color: #1e90ff;
+      color: white;
+      padding: 14px 25px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
       text-decoration: none;
+      font-size: 18px;
+      display: inline-block;
+      transition: background-color 0.3s;
     }
-    a:hover {
-      text-decoration: underline;
+
+    .link-button:hover {
+      background-color: #3aa0ff;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 20px;
+      border: 3px solid white;
     }
   </style>
 </head>
 <body>
-  <h1>Добро пожаловать!</h1>
-  <p>Вот мои проекты:</p>
-  <a href="https://x.com/TomTheGladiator" target="_blank">икс</a>
-  <a href="https://onlyfans.com/tomgladiartor" target="_blank">ОНЛИК</a>
-  <a href="hhttps://www.instagram.com/tomgladiat0r/" target="_blank">инст</a>
+
+  <!-- Если хочешь фото — добавь ссылку ниже -->
+  <!-- <img src="https://your-image-link.jpg" alt="avatar" class="avatar"> -->
+
+  <h1>Привет, я Том</h1>
+  <p>Добро пожаловать! Ниже мои ссылки 👇</p>
+
+  <a href="https://x.com/TomTheGladiator" target="_blank" class="link-button">Twitter (X)</a>
+  <a href="https://onlyfans.com/tomgladiator" target="_blank" class="link-button">OnlyFans</a>
+  <a href="https://www.instagram.com/tomgladiator/" target="_blank" class="link-button">Instagram</a>
+
 </body>
 </html>
