@@ -26,8 +26,8 @@
 <body>
   <h1>Добро пожаловать!</h1>
   <p>Вот мои проекты:</p>
-  <a href="https://x.com/TomTheGladiator" target="_blank">X</a>
+  <a href="https://x.com/TomTheGladiator" target="_blank">икс</a>
   <a href="https://onlyfans.com/tomgladiartor" target="_blank">ОНЛИК</a>
-  <a href="hhttps://www.instagram.com/tomgladiat0r/" target="_INST">Портфолио</a>
+  <a href="hhttps://www.instagram.com/tomgladiat0r/" target="_blank">инст</a>
 </body>
 </html>
